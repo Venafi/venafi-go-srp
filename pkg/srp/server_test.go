@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/Venafi/venafi-go-srp/srp"
+	"github.com/Venafi/venafi-go-srp/pkg/srp"
 )
 
 func TestSRP_Marshal_Unmarshal_Binary(t *testing.T) {
